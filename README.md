@@ -8,9 +8,9 @@
 - **[AngularJS: MVW &mdash; Official Documentation](https://docs.angularjs.org/tutorial)**
 - **[Learn and Understand AngularJS &mdash; Anthony Alicea](https://www.udemy.com/course/learn-angularjs/)**
 
-## Libraries
+## Frameworks & Libraries
 
-- AngularJS Library: [1.8.2](https://code.angularjs.org/1.8.2/angular.min.js)
+- AngularJS Framework: [1.8.2](https://code.angularjs.org/1.8.2/angular.min.js)
 - Bootstrap: [3.2.0](https://netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css)
 
 ## Table Of Contents
