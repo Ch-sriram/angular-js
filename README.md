@@ -17,3 +17,4 @@
 
 1. Model View Whatever
    - [Code & Concept](./01-model-view-whatever/)
+   - [Changes Made](https://github.com/Ch-sriram/angular-js/commit/60e6bd8bb71a652d20567cede1898c81ccf82ec6)
