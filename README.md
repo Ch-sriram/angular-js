@@ -18,3 +18,7 @@
 1. Model View Whatever
    - [Code & Concept](./01-model-view-whatever/)
    - [Changes Made](https://github.com/Ch-sriram/angular-js/commit/60e6bd8bb71a652d20567cede1898c81ccf82ec6)
+2. Services & Dependency Injection
+   - [Concept](./02-scope-dependency-injection/README.md#concept)
+   - [Minification & Dependency Injection](./02-scope-dependency-injection/README.md#minification--dependency-injection)
+   - [Changes Made]()

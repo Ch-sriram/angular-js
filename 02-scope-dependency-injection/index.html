@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-us" ng-app="angularApp">
+  <head>
+    <title>Introduction to AngularJS</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta charset="UTF-8" />
+
+    <!-- load bootstrap and fontawesome via CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.2.0/dist/css/bootstrap.min.css" />
+
+    <style>
+      html,
+      body {
+        font-size: 1.1em;
+      }
+    </style>
+
+    <!-- load angular via CDN -->
+    <script src="https://code.angularjs.org/1.8.2/angular.min.js"></script>
+
+    <!-- angular-messages can only be imported after angular-js import -->
+    <script src="https://code.angularjs.org/1.8.2/angular-messages.min.js"></script>
+
+    <!-- angular-resource can only be imported after angular-js import -->
+    <script src="https://code.angularjs.org/1.8.2/angular-resource.min.js"></script>
+
+    <!-- Script Imports -->
+    <script src="./app.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-default">
+        <div class="container">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="/">AngularJS</a>
+          </div>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#"><i class="fa fa-home"></i> Home</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container">
+      <div ng-controller="mainController">
+        <form name="myForm">
+          <label>
+            Enter text:
+            <input type="email" ng-model="field" name="myField" required maxlength="15" />
+          </label>
+          <div ng-messages="myForm.myField.$error" role="alert">
+            <div ng-message="required">Please enter a value for this field.</div>
+            <div ng-message="email" class="alert alert-danger">This field must be a valid email address.</div>
+            <div ng-message="maxlength" class="alert alert-danger">This field can be at most 15 characters long.</div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
