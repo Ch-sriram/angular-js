@@ -21,4 +21,4 @@
 2. Services & Dependency Injection
    - [Concept](./02-scope-dependency-injection/README.md#concept)
    - [Minification & Dependency Injection](./02-scope-dependency-injection/README.md#minification--dependency-injection)
-   - [Changes Made]()
+   - [Changes Made](https://github.com/Ch-sriram/angular-js/commit/5dfafff3d183ac627d3dfa27d56927aba19dbc84)
