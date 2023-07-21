@@ -37,7 +37,17 @@
 
     <div class="container">
       <div ng-controller="mainController">
-        <h1>Hello {{ name + ". How are you?" }}</h1>
+        <div>
+          <label for="handle">What is your twitter handle?</label>
+          <!-- ng-model is custom attribute which allows the change of DOM from the controller. And this is a.k.a Directive. -->
+          <!-- Directive: An instruction to AngularJS to manipulate a piece of the DOM. Eg: ng-model, ng-controller, ng-app, etc, all are directives -->
+          <!-- Thus ng-model="handle" => In the `mainController`, `handle` will be available at `$scope` dependency -->
+          <input type="text" id="handle" ng-model="handle" />
+        </div>
+        <hr />
+        <!-- And since the scope data can be interpolated here, we can bind it 2-way as follows -->
+        <!-- `lowercasedHandle` is a function inside the `$scope` service, which is defined in the `mainController` -->
+        <h1>twitter.com/{{ lowercasedHandle() }}</h1>
       </div>
     </div>
   </body>
