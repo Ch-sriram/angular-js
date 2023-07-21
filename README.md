@@ -25,3 +25,4 @@
 3. Data Binding & Directives
    1. Scope & Interpolation: [Changes Made](https://github.com/Ch-sriram/angular-js/commit/1fe83392b79a944d8fbed0f8b59eb214943f830d)
    2. Directives & 2-way Binding: [Changes Made](https://github.com/Ch-sriram/angular-js/commit/8a3f568123ebb2a908c8b90e8f9c13c4078aafbd)
+   3. [AngularJS Context &mdash; Watch List `$watch` & Digest Cycle `$digest`](https://cfdeepak.wordpress.com/2014/09/29/how-two-way-data-binding-works-in-angular-js/): [Changes Made]() ⭐
